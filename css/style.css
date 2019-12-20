@@ -7,11 +7,17 @@
 @charset 'UTF-8';
 
 /* Add the decaration on top */
-@font-face {
-font-family: 'the-godfather';
-src: url('font/the-godfather.woff') format('woff');
+
+@font-face{
+	font-family:'the-godfather';
+	/* src:url('font/fontawesome-webfont.eot?v=4.7.1'); */
+	src:url('ffont/the-godfather.eot')format('embedded-opentype'),
+	url('font/the-godfather.woff') format('woff'),
+	url('font/the-godfather.ttf') format('truetype'),
+	url('font/the-godfather.svg')format('svg');
+	font-weight:normal;
+	font-style:normal
 }
-/* @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.7.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.7.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.7.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.7.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.7.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal} */
 
 
 /* @font-face{font-family:'the-godfather'; src:url('font/the-godfather.regular.ttf')}
