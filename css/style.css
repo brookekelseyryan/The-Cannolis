@@ -798,7 +798,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/header.mp4) no-repeat bottom center;
+		background: url(../images/header.JPG) no-repeat bottom center;
 		background-attachment: fixed;
 		background-size: cover;
 		text-align: center;
@@ -1013,7 +1013,7 @@
 	{
 		position: relative;
 		text-align: center;
-		background: url(../images/header.mp4) no-repeat center center;
+		background: url(../images/header.JPG) no-repeat center center;
 		background-attachment: fixed;
 		background-size: cover;
 	}
